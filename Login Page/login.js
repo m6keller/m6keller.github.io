@@ -10,10 +10,10 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "participant" && password === "pass") {
         sessionStorage.setItem( "perm", "priv" );
-        window.location.href = "http://127.0.0.1:5500/First%20Try/eventList.html";
+        window.location.href = "http://m6keller.github.io/EventsPage/eventList.html";
     } else if( username === "user" && password === "pass" ) {
         sessionStorage.setItem( "perm", "pub" );
-        window.location.href = "http://127.0.0.1:5500/First%20Try/eventList.html";
+        window.location.href = "http://m6keller.github.io/EventsPage/eventList.html";
     } else {
         alert("Incorrect credentials");
     }
