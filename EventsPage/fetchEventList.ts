@@ -34,7 +34,7 @@ function AfterFinish(eventList: TEvent[]) {
   }
 
   var loginButton = document.getElementById( "login-button" )!;
-  loginButton.addEventListener( "click", () => { window.location.href = "http://127.0.0.1:5500/First%20Try/Login%20Page/login.html" } );
+  loginButton.addEventListener( "click", () => { window.location.href = "https://m6keller.github.io/index.html" } );
   
   function DisplayInfo( event: TEvent ) {
     // clearing all previous information in each HTML section
