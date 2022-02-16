@@ -1,0 +1,215 @@
+/*
+#a33ae7
+#4ec9ea
+#ffa500 
+*/
+
+#title {
+  width: 300px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 25px;
+  color: black;
+  text-align: center;
+  width: auto;
+  margin: auto;
+  display: block;
+}
+
+.h1 {
+  font-family: Trebuchet MS;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+.sub-header {
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  display: block;
+}
+
+#login-button {
+  font-family: Trebuchet MS;
+  background-color: #a33ae7;
+  display: inline-block;
+  opacity: 0.5;
+  border: 100px;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+}
+
+#login-button:hover {
+  opacity: 1;
+  color: white;
+}
+
+.event-buttons {
+  font-family: Trebuchet MS;
+  background-color: transparent;
+  opacity: 0.5;
+  border: 100px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.event-buttons:hover {
+  opacity: 1;
+  color: white;
+}
+
+.event-title {
+  margin-top: 15px;
+  font-family: Trebuchet MS;
+  font-weight: 700;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.default {
+  font-family: Trebuchet MS;
+  height: 20px;
+  font-size: 40px;
+  opacity: 0.5;
+  text-align: center;
+  margin: auto;
+  line-height: 200px;
+  transition-duration: 0.4s;
+  position: relative;
+}
+
+.default:hover {
+  font-family: Trebuchet MS;
+  opacity: 1;
+}
+
+.default-msg {
+  display: none;
+  font-family: Trebuchet MS;
+  line-height: 150px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  font-size: 20px;
+  top: 150px;
+  transition-duration: 1s;
+}
+
+.default:hover + .default-msg {
+  display: block;
+  transition-duration: 1s;
+}
+
+.event-type {
+  font-family: Trebuchet MS;
+  display: block;
+  float: left;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+.speaker-names {
+  font-family: Trebuchet MS;
+  display: block;
+  font-weight: bold;
+}
+
+.event-date {
+  font-family: Trebuchet MS;
+  /*display: block;*/
+  float: center;
+}
+
+.event-time {
+  font-family: Trebuchet MS;
+  float: center;
+}
+
+.profile-picture {
+  font-family: Trebuchet MS;
+  display: block;
+  border-radius: 25px;
+}
+
+.event-description {
+  font-family: Trebuchet MS;
+  display: block;
+}
+
+#links {
+  font-family: Trebuchet MS;
+  display: block;
+  float: right;
+}
+
+#dates-and-rel-events {
+  font-family: Trebuchet MS;
+  display: block;
+  float: right;
+}
+
+.priv-event-link {
+  font-family: Trebuchet ms;
+  display: block;
+  float: left;
+  font-size: 12px;
+  float: left;
+  font-style: italic;
+}
+
+.pub-event-link {
+  font-family: Trebuchet ms;
+  display: block;
+  float: left;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.related-events {
+  font-family: Trebuchet MS;
+  background-color: transparent;
+  opacity: 0.5;
+  border: 100px;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  display: block;
+  float: left;
+  border-radius: 25px;
+}
+
+.related-events:hover {
+  opacity: 1;
+}
+
+.col-2 {
+  background-color: #a33ae7;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#row {
+  display: grid;
+}
